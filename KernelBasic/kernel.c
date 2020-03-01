@@ -143,10 +143,16 @@ void kernel_entry()
     assign g_fore_color & g_back_color to color values
     g_fore_color = BRIGHT_RED;
   */
-  print_string("Hello World!");
-  print_new_line();
-  print_int(123456789);
-  print_new_line();
-  print_string("Goodbye World!");
 
+  Admin();
+  print_new_line();
+  print_int(81115);
+  print_new_line();
+  print_string("Goodbye admin!");
+
+}
+
+void Admin()
+{
+  print_string("Hello Admin!");
 }
